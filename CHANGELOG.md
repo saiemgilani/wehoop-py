@@ -1,0 +1,13 @@
+## 0.0.1 Release: June 26, 2021
+- f'in round
+- findin' out
+- Function added: `load_wbb_pbp(years: List[int]) -> pd.DataFrame`
+- Function added: `load_wbb_schedule(years: List[int]) -> pd.DataFrame`
+- Function added: `load_wbb_team_boxscore(years: List[int]) -> pd.DataFrame`
+- Function added: `load_wbb_player_boxscore(years: List[int]) -> pd.DataFrame`
+- Function added: `load_wnba_pbp(years: List[int]) -> pd.DataFrame`
+- Function added: `load_wnba_schedule(years: List[int]) -> pd.DataFrame`
+- Function added: `load_wnba_team_boxscore(years: List[int]) -> pd.DataFrame`
+- Function added: `load_wnba_player_boxscore(years: List[int]) -> pd.DataFrame`
+- Function added: `wbb_calendar(season: int) -> pd.DataFrame`
+- Function added: `wnba_calendar(season: int) -> pd.DataFrame`
