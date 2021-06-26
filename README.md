@@ -1,4 +1,4 @@
-# hoopR-py
+# wehoop-py
 <!-- badges: start -->
 
 ![Lifecycle:experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=for-the-badge&logo=github)
@@ -11,7 +11,7 @@ Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40sa
 
 See [CHANGELOG.md](CHANGELOG.md) for details.
 
-[hoopR-py](https://github.com/saiemgilani/hoopR-py) is an Python package for working with men’s basketball data and companion package to [hoopR](https://github.com/saiemgilani/hoopR)
+[hoopR-py](https://github.com/saiemgilani/wehoop-py) is an Python package for working with women’s basketball data and companion package to [hoopR](https://github.com/saiemgilani/wehoop)
 
 The package has functions to access live play by play and box score data from ESPN with shot locations when available.
 
@@ -20,13 +20,13 @@ The package has functions to access live play by play and box score data from ES
 hoopR-py can be installed via pip:
 
 ```bash
-pip install hoopR-py
+pip install wehoop-py
 ```
 
 or from the repo (which may at times be more up to date):
 
 ```bash
-git clone https://github.com/saiemgilani/hoopR-py
-cd hoopR-py
+git clone https://github.com/saiemgilani/wehoop-py
+cd wehoop-py
 pip install -e .
 ```
