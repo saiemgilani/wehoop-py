@@ -1,6 +1,6 @@
 import pandas as pd
 import json
-from dl_utils import download
+from wehoop.dl_utils import download
 
 
 
