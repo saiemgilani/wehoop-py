@@ -1,6 +1,15 @@
 wehoop package
 ==============
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   wehoop.wbb
+   wehoop.wnba
+
 Submodules
 ----------
 
@@ -24,30 +33,6 @@ wehoop.errors module
 --------------------
 
 .. automodule:: wehoop.errors
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-wehoop.schedule module
-----------------------
-
-.. automodule:: wehoop.schedule
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-wehoop.wbb module
------------------
-
-.. automodule:: wehoop.wbb
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-wehoop.wnba module
-------------------
-
-.. automodule:: wehoop.wnba
    :members:
    :undoc-members:
    :show-inheritance:
