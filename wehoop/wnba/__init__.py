@@ -113,7 +113,7 @@ def load_wnba_schedule(seasons: List[int]) -> pd.DataFrame:
     return data
 
 def wnba_calendar(season: int) -> pd.DataFrame:
-    """wbb_calendar - look up the WNBA calendar for a given season
+    """wnba_calendar - look up the WNBA calendar for a given season
 
     Args:
         season (int): Used to define different seasons. 2002 is the earliest available season.

@@ -52,11 +52,11 @@ module.exports = {
             },
             {
               label: 'cfbfastR-py',
-              href: 'https://saiemgilani.github.io/cfbfastR/',
+              href: 'https://cfbfastR-py.sportsdataverse.org',
             },
             {
               label: 'hoopR-py',
-              href: 'https://saiemgilani.github.io/hoopR/',
+              href: 'https://hoopR-py.sportsdataverse.org',
             },
             {
               label: 'R Packages',

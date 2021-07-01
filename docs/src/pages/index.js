@@ -23,7 +23,7 @@ const FeatureList = [
     // Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        It provides users with the capability to access the ESPN API’s 
+        It provides users with the capability to access the ESPN API’s
         WNBA game play-by-plays, box scores, and schedules to analyze the data for themselves.
       </>
     ),
