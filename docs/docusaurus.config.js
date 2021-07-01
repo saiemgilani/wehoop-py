@@ -20,6 +20,7 @@ module.exports = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+    image: 'img/wehoop-py-gh.png',
     navbar: {
       hideOnScroll: true,
       // title: 'wehoop-py',
