@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'wehoop-py',
   tagline: "The SportsDataverse's Python Package for Women's Basketball Data.",
-  url: 'https://saiemgilani.github.io/wehoop-py',
+  url: 'https://wehoop-py.sportsdataverse.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
