@@ -8,7 +8,7 @@ from wehoop.dl_utils import download
 def load_wbb_pbp(seasons: List[int]) -> pd.DataFrame:
     """Load women's college basketball play by play data going back to 2002
 
-    Ex:
+    Example:
         `wbb_df = wehoop.wbb.load_wbb_pbp(seasons=[range(2002,2022)])`
 
     Args:
@@ -34,7 +34,7 @@ def load_wbb_pbp(seasons: List[int]) -> pd.DataFrame:
 def load_wbb_team_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load women's college basketball team boxscore data
 
-    Ex:
+    Example:
         `wbb_df = wehoop.wbb.load_wbb_team_boxscore(seasons=[range(2002,2022)])`
 
     Args:
@@ -61,7 +61,7 @@ def load_wbb_team_boxscore(seasons: List[int]) -> pd.DataFrame:
 def load_wbb_player_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load women's college basketball player boxscore data
 
-    Ex:
+    Example:
         `wbb_df = wehoop.wbb.load_wbb_player_boxscore(seasons=[range(2002,2022)])`
 
     Args:
@@ -88,7 +88,7 @@ def load_wbb_player_boxscore(seasons: List[int]) -> pd.DataFrame:
 def load_wbb_schedule(seasons: List[int]) -> pd.DataFrame:
     """Load women's college basketball schedule data
 
-    Ex:
+    Example:
         `wbb_df = wehoop.wbb.load_wbb_schedule(seasons=[range(2002,2022)])`
 
     Args:

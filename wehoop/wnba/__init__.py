@@ -8,7 +8,7 @@ from wehoop.dl_utils import download
 def load_wnba_pbp(seasons: List[int]) -> pd.DataFrame:
     """Load WNBA play by play data going back to 2002
 
-    Ex:
+    Example:
         `wnba_df = wehoop.wnba.load_wnba_pbp(seasons=[range(2002,2022)])`
 
     Args:
@@ -34,7 +34,7 @@ def load_wnba_pbp(seasons: List[int]) -> pd.DataFrame:
 def load_wnba_team_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load WNBA team boxscore data
 
-    Ex:
+    Example:
         `wnba_df = wehoop.wnba.load_wnba_team_boxscore(seasons=[range(2002,2022)])`
 
     Args:
@@ -61,7 +61,7 @@ def load_wnba_team_boxscore(seasons: List[int]) -> pd.DataFrame:
 def load_wnba_player_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load WNBA player boxscore data
 
-    Ex:
+    Example:
         `wnba_df = wehoop.wnba.load_wnba_player_boxscore(seasons=[range(2002,2022)])`
 
     Args:
@@ -88,7 +88,7 @@ def load_wnba_player_boxscore(seasons: List[int]) -> pd.DataFrame:
 def load_wnba_schedule(seasons: List[int]) -> pd.DataFrame:
     """Load WNBA schedule data
 
-    Ex:
+    Example:
         `wnba_df = wehoop.wnba.load_wnba_schedule(seasons=[range(2002,2022)])`
 
     Args:
