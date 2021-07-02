@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ac17f1;
+  --ifm-color-primary: #ce7df3;
   --ifm-color-primary-dark: hsl(7 85% 62%);
   --ifm-color-primary-darker: rgb(141, 79, 255);
   --ifm-color-primary-darkest: rgb(142, 43, 255);
@@ -16,24 +16,70 @@
   --ifm-color-primary-lightest: rgb(151, 41, 255);
   --ifm-code-font-size: 95%;
 }
-
+html[data-theme='dark'] .dropdown__menu {
+  background-color: #522c64;
+}
 .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: hsl(295, 56%, 9%);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: hsla(295, 57%, 9%, 0.863);
+}
+html[data-theme='dark'] code {
+  background-color: hsla(295, 57%, 9%, 0.671);
+}
+html[data-theme='dark'] {
+  --ifm-color-primary: #522c64;
 }
 
+/* nav */
+html[data-theme='dark'] nav {
+  background-color: #1a0727;
+}
+/* html[data-theme='light'] nav {
+  background-color: #1a0727;
+} */
+
+/* footer */
+html[data-theme='dark'] footer {
+  background-color: #1a0727;
+}
+html[data-theme='light'] footer {
+  background-color: #1a0727;
+}
 html[data-theme='dark'] {
-  --ifm-color-primary: #9c1dd6;
+  background-color: #3c1a4d;
+  --ifm-color-primary: #ce7df3;
+  --ifm-link-color: #ce7df3;
+}
+html[data-theme='light'] {
+  --ifm-color-primary: #522c64;
+  --ifm-link-color: #9849bd;
+}
+
+html[data-theme='dark'].navbar__link:hover, .navbar__link--active {
+  color: #ce7df3;
+  text-decoration: none;
+}
+html[data-theme='dark'] .menu__link--active {
+  color: #ce7df3;
+  --ifm-link-color: #ce7df3;
+}
+
+html[data-theme='light'].navbar__link:hover, .navbar__link--active {
+  color: #9849bd;
+  text-decoration: none;
+}
+html[data-theme='light'] .menu__link--active {
+  color: #9849bd;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: hsl(228, 50%, 5%);
+  background-color: hsl(295, 56%, 9%);
 
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));

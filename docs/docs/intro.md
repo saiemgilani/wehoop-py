@@ -12,7 +12,7 @@ sidebar_position: 1
 Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40saiemgilani&logo=twitter&style=for-the-badge)](https://twitter.com/saiemgilani)
 <!-- badges: end -->
 
-<a href='http://github.com/saiemgilani/wehoop-py'><img src='../static/img/wehoop-py-logo.png' align="right" height="150" /></a>
+<a href='http://github.com/saiemgilani/wehoop-py'><img src='img/wehoop-py-logo.png' align="right" height="150" /></a>
 
 See [CHANGELOG](/CHANGELOG) for details.
 
