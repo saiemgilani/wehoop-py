@@ -12,11 +12,11 @@ sidebar_position: 1
 Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40saiemgilani&logo=twitter&style=for-the-badge)](https://twitter.com/saiemgilani)
 <!-- badges: end -->
 
-<a href='http://github.com/saiemgilani/wehoop-py'><img src='img/wehoop-py-logo.png' align="right" height="150" /></a>
+<a href='https://wehoop-py.sportsdataverse.org/'><img src='https://wehoop-py.sportsdataverse.org/img/wehoop-py-logo.png' align="right" height="150" /></a>
 
 See [CHANGELOG](/CHANGELOG) for details.
 
-[wehoop-py](https://github.com/saiemgilani/wehoop-py) is an Python package for working with women’s basketball data and companion package to [wehoop](https://github.com/saiemgilani/wehoop)
+[wehoop-py](https://wehoop-py.sportsdataverse.org/) is an Python package for working with women’s basketball data and companion package to [wehoop](https://saiemgilani.github.io/wehoop/)
 
 The package has functions to access live play by play and box score data from ESPN with shot locations when available.
 
@@ -46,14 +46,14 @@ pip install -e .
 
 ## **Citations**
 
-To cite the [**`wehoop-py`**](https://saiemgilani.github.io/wehoop-py/) Python package in publications, use:
+To cite the [**`wehoop-py`**](https://wehoop-py.sportsdataverse.org/) Python package in publications, use:
 
 BibTex Citation
 ```bibtex
 @misc{saiemgilani2021wehooppy,
   author = {Gilani, Saiem},
   title = {wehoop-py: The SportsDataverse's Python package for Women's Basketball Data.},
-  url = {https://saiemgilani.github.io/wehoop-py/},
+  url = {https://wehoop-py.sportsdataverse.org/},
   year = {2021}
 }
 ```
