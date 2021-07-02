@@ -3,7 +3,7 @@ title: Getting Started
 sidebar_label: Getting Started
 sidebar_position: 1
 ---
-# wehoop-py
+## wehoop-py
 <!-- badges: start -->
 ![Lifecycle:experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=for-the-badge&logo=github)
 [![PyPI](https://img.shields.io/pypi/v/wehoop-py?label=wehoop-py&logo=python&style=for-the-badge)](https://pypi.org/project/wehoop-py/)
@@ -36,7 +36,7 @@ cd wehoop-py
 pip install -e .
 ```
 
-# **Our Authors**
+## **Our Authors**
 
 -   [Saiem Gilani](https://twitter.com/saiemgilani)
 
