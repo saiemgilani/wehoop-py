@@ -47,6 +47,7 @@ module.exports = {
             {
               href: 'https://sportsdataverse.org',
               label: 'SportsDataverse',
+              target: '_self',
             },
             {
               label: 'Python Packages',
@@ -54,10 +55,12 @@ module.exports = {
             {
               label: 'cfbfastR-py',
               href: 'https://cfbfastR-py.sportsdataverse.org',
+              target: '_self',
             },
             {
               label: 'hoopR-py',
               href: 'https://hoopR-py.sportsdataverse.org',
+              target: '_self',
             },
             {
               label: 'R Packages',
@@ -65,26 +68,32 @@ module.exports = {
             {
               label: 'cfbfastR',
               href: 'https://saiemgilani.github.io/cfbfastR/',
+              target: '_self',
             },
             {
               label: 'hoopR',
               href: 'https://saiemgilani.github.io/hoopR/',
+              target: '_self',
             },
             {
               label: 'wehoop',
               href: 'https://saiemgilani.github.io/wehoop/',
+              target: '_self',
             },
             {
               label: 'recruitR',
               href: 'https://saiemgilani.github.io/recruitR/',
+              target: '_self',
             },
             {
               label: 'puntr',
               href: 'https://puntalytics.github.io/puntr/',
+              target: '_self',
             },
             {
               label: 'gamezoneR',
               href: 'https://jacklich10.github.io/gamezoneR/',
+              target: '_self',
             },
           ]
         },
