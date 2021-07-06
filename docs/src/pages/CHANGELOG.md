@@ -1,4 +1,5 @@
-## wehoop-py 0.0.6 Release: July 6, 2021
+## wehoop-py 0.0.7 Release: July 6, 2021
+- Fix team box score link
 - Updated documentation for all functions
 - Created documentation website at [https://wehoop-py.sportsdataverse.org/](https://wehoop-py.sportsdataverse.org/)
 ## wehoop-py 0.0.1 Release: June 26, 2021
