@@ -138,8 +138,22 @@ def wnba_calendar(season: int) -> pd.DataFrame:
     url = "http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates={}".format(season)
     resp = download(url=url)
     txt = json.loads(resp)['leagues'][0]['calendar']
-    reg = pd.DataFrame(txt[0]['entries'])
-    post = pd.DataFrame(txt[1]['entries'])
-    full_schedule = pd.concat([reg,post], ignore_index=True)
-    full_schedule['season']=season
-    return full_schedule
+    datenum = list(map(lambda x: x[:10].replace("-",""),txt))
+    date = list(map(lambda x: x[:10],txt))
+
+    year = list(map(lambda x: x[:4],txt))
+    month = list(map(lambda x: x[5:7],txt))
+    day = list(map(lambda x: x[8:10],txt))
+
+    data = {"season": season,
+            "datetime" : txt,
+            "date" : date,
+            "year": year,
+            "month": month,
+            "day": day,
+            "dateURL": datenum
+    }
+    df = pd.DataFrame(data)
+    df['url']="http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates="
+    df['url']= df['url'] + df['dateURL']
+    return df
