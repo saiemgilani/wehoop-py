@@ -8,7 +8,7 @@ Load women’s college basketball player boxscore data
 
 Ex:
 
-    wbb_df = wehoop.wbb.load_wbb_player_boxscore(seasons=[range(2002,2022)])
+    wbb_df = wehoop.wbb.load_wbb_player_boxscore(seasons=range(2002,2022))
 
 Args:
 

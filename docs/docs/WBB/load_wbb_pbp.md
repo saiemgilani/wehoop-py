@@ -8,7 +8,7 @@ Load women’s college basketball play by play data going back to 2002
 
 Ex:
 
-    wbb_df = wehoop.wbb.load_wbb_pbp(seasons=[range(2002,2022)])
+    wbb_df = wehoop.wbb.load_wbb_pbp(seasons=range(2002,2022))
 
 Args:
 

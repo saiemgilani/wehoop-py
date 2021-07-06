@@ -8,7 +8,7 @@ Load WNBA player boxscore data
 
 Ex:
 
-    wnba_df = wehoop.wnba.load_wnba_player_boxscore(seasons=[range(2002,2022)])
+    wnba_df = wehoop.wnba.load_wnba_player_boxscore(seasons=range(2002,2022))
 
 Args:
 

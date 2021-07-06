@@ -9,7 +9,7 @@ def load_wbb_pbp(seasons: List[int]) -> pd.DataFrame:
     """Load women's college basketball play by play data going back to 2002
 
     Example:
-        `wbb_df = wehoop.wbb.load_wbb_pbp(seasons=[range(2002,2022)])`
+        `wbb_df = wehoop.wbb.load_wbb_pbp(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -35,7 +35,7 @@ def load_wbb_team_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load women's college basketball team boxscore data
 
     Example:
-        `wbb_df = wehoop.wbb.load_wbb_team_boxscore(seasons=[range(2002,2022)])`
+        `wbb_df = wehoop.wbb.load_wbb_team_boxscore(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -62,7 +62,7 @@ def load_wbb_player_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load women's college basketball player boxscore data
 
     Example:
-        `wbb_df = wehoop.wbb.load_wbb_player_boxscore(seasons=[range(2002,2022)])`
+        `wbb_df = wehoop.wbb.load_wbb_player_boxscore(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -89,7 +89,7 @@ def load_wbb_schedule(seasons: List[int]) -> pd.DataFrame:
     """Load women's college basketball schedule data
 
     Example:
-        `wbb_df = wehoop.wbb.load_wbb_schedule(seasons=[range(2002,2022)])`
+        `wbb_df = wehoop.wbb.load_wbb_schedule(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.

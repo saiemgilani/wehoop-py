@@ -9,7 +9,7 @@ Load WNBA schedule data
 
 Ex:
 
-    wnba_df = wehoop.wnba.load_wnba_schedule(seasons=[range(2002,2022)])
+    wnba_df = wehoop.wnba.load_wnba_schedule(seasons=range(2002,2022))
 
 Args:
 

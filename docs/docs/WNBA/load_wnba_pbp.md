@@ -8,7 +8,7 @@ Load WNBA play by play data going back to 2002
 
 Ex:
 
-    wnba_df = wehoop.wnba.load_wnba_pbp(seasons=[range(2002,2022)])
+    wnba_df = wehoop.wnba.load_wnba_pbp(seasons=range(2002,2022))
 
 Args:
 

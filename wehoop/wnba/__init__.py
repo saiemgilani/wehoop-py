@@ -9,7 +9,7 @@ def load_wnba_pbp(seasons: List[int]) -> pd.DataFrame:
     """Load WNBA play by play data going back to 2002
 
     Example:
-        `wnba_df = wehoop.wnba.load_wnba_pbp(seasons=[range(2002,2022)])`
+        `wnba_df = wehoop.wnba.load_wnba_pbp(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -35,7 +35,7 @@ def load_wnba_team_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load WNBA team boxscore data
 
     Example:
-        `wnba_df = wehoop.wnba.load_wnba_team_boxscore(seasons=[range(2002,2022)])`
+        `wnba_df = wehoop.wnba.load_wnba_team_boxscore(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -62,7 +62,7 @@ def load_wnba_player_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load WNBA player boxscore data
 
     Example:
-        `wnba_df = wehoop.wnba.load_wnba_player_boxscore(seasons=[range(2002,2022)])`
+        `wnba_df = wehoop.wnba.load_wnba_player_boxscore(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -89,7 +89,7 @@ def load_wnba_schedule(seasons: List[int]) -> pd.DataFrame:
     """Load WNBA schedule data
 
     Example:
-        `wnba_df = wehoop.wnba.load_wnba_schedule(seasons=[range(2002,2022)])`
+        `wnba_df = wehoop.wnba.load_wnba_schedule(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
