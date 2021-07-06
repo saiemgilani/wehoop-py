@@ -1,5 +1,6 @@
 import pyarrow.parquet as pq
 import pandas as pd
+import json
 from typing import List, Callable, Iterator, Union, Optional
 from wehoop.config import WNBA_BASE_URL, WNBA_TEAM_BOX_URL, WNBA_PLAYER_BOX_URL, WNBA_TEAM_SCHEDULE_URL
 from wehoop.errors import SeasonNotFoundError
