@@ -7,7 +7,7 @@ sidebar_label: Load WNBA Schedule
 ### wehoop.wnba.load_wnba_schedule(seasons: List[int])
 Load WNBA schedule data
 
-Ex:
+Example:
 
     wnba_df = wehoop.wnba.load_wnba_schedule(seasons=range(2002,2022))
 

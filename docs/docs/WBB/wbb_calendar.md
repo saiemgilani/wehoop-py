@@ -2,8 +2,6 @@
 title: WBB Calendar
 sidebar_label: WBB Calendar
 ---
-
-
 ### wehoop.wbb.wbb_calendar(season: int)
 wbb_calendar - look up the women’s college basketball calendar for a given season
 

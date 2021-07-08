@@ -6,7 +6,7 @@ sidebar_label: Load WBB Team Boxscore
 ### wehoop.wbb.load_wbb_team_boxscore(seasons: List[int])
 Load women’s college basketball team boxscore data
 
-Ex:
+Example:
 
     wbb_df = wehoop.wbb.load_wbb_team_boxscore(seasons=range(2002,2022))
 

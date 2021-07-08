@@ -6,7 +6,7 @@ sidebar_label: Load WNBA Team Boxscore
 ### wehoop.wnba.load_wnba_team_boxscore(seasons: List[int])
 Load WNBA team boxscore data
 
-Ex:
+Example:
 
     wnba_df = wehoop.wnba.load_wnba_team_boxscore(seasons=range(2002,2022))
 

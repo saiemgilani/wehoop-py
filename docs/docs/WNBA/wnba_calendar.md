@@ -2,8 +2,6 @@
 title: WNBA Calendar
 sidebar_label: WNBA Calendar
 ---
-
-
 ### wehoop.wnba.wnba_calendar(season: int)
 wnba_calendar - look up the WNBA calendar for a given season
 

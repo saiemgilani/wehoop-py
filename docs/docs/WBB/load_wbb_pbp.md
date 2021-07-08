@@ -6,7 +6,7 @@ sidebar_label: Load WBB PBP
 ### wehoop.wbb.load_wbb_pbp(seasons: List[int])
 Load women’s college basketball play by play data going back to 2002
 
-Ex:
+Example:
 
     wbb_df = wehoop.wbb.load_wbb_pbp(seasons=range(2002,2022))
 

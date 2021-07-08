@@ -7,7 +7,7 @@ sidebar_label: Load WBB Schedule
 ### wehoop.wbb.load_wbb_schedule(seasons: List[int])
 Load women’s college basketball schedule data
 
-Ex:
+Example:
 
     wbb_df = wehoop.wbb.load_wbb_schedule(seasons=range(2002,2022))
 

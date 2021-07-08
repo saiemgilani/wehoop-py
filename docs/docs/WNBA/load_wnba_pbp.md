@@ -2,11 +2,10 @@
 title: Load WNBA PBP
 sidebar_label: Load WNBA PBP
 ---
-
 ### wehoop.wnba.load_wnba_pbp(seasons: List[int])
 Load WNBA play by play data going back to 2002
 
-Ex:
+Example:
 
     wnba_df = wehoop.wnba.load_wnba_pbp(seasons=range(2002,2022))
 

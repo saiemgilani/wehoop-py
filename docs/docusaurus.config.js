@@ -23,7 +23,7 @@ module.exports = {
     image: 'img/wehoop-py-gh.png',
     navbar: {
       hideOnScroll: true,
-      // title: 'wehoop-py',
+      title: 'wehoop-py',
       logo: {
         alt: 'wehoop Logo',
         src: 'img/logo.ico',
