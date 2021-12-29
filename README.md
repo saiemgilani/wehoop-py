@@ -1,11 +1,8 @@
-# wehoop-py <a href='http://github.com/saiemgilani/wehoop-py'><img src='https://wehoop-py.sportsdataverse.org/img/wehoop-py-logo.png' align="right" height="150" /></a>
-<!-- badges: start -->
-![Lifecycle:experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=for-the-badge&logo=github)
-[![PyPI](https://img.shields.io/pypi/v/wehoop-py?label=wehoop-py&logo=python&style=for-the-badge)](https://pypi.org/project/wehoop-py/)
-![Contributors](https://img.shields.io/github/contributors/saiemgilani/wehoop-py?style=for-the-badge)
-[![Twitter
-Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40saiemgilani&logo=twitter&style=for-the-badge)](https://twitter.com/saiemgilani)
-<!-- badges: end -->
+# wehoop-py is now archived 
+
+# **Please use [**`sportsdataverse-py`**](https://py.sportsdataverse.org) as a drop-in replacement**
+
+# wehoop-py <a href='https://py.sportsdataverse.org'><img src='https://raw.githubusercontent.com/saiemgilani/wehoop-py/master/wehoop-py-logo.png' align="right" height="150" /></a>
 
 
 See [CHANGELOG.md](https://wehoop-py.sportsdataverse.org/CHANGELOG) for details on breaking changes.
